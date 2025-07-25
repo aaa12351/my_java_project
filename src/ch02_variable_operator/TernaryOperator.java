@@ -52,6 +52,13 @@ public class TernaryOperator {
         System.out.println(msg);
 
 
+        int se = 100 ; // 90점 이상이면 합격
+        // 100점이므로 합격입니다.
+        msg = se >= 90 ? "합격" : "불합격" ;
+        msg = se + " 점이므로 " + msg + " 입니다. " ;
+        System.out.println(msg);
+
+
 
 
 
