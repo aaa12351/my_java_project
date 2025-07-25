@@ -11,12 +11,14 @@ public class Logical01 {
         else if( month >= 6 && month <= 8)
         {
             season ="여름" ;
-        }else if( month >= 9 && month <= 11)
+        }
+        else if ( month >= 9 && month <= 11)
         {
             season = "가을" ;
-        }else
+        }
+        else
         {
-            season ="겨울";
+            season = "겨울" ;
         }
         String message = month + "월은 " + season + " 입니다. " ;
         System.out.println(message);
