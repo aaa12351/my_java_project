@@ -2,7 +2,7 @@ package ch02_control_statement;
 
 public class DayslnMonth {
     public static void main(String[] args) {
-        int month = 15 ;
+        int month = 12 ;
         int last_day = 0 ;
 
         switch (month) {
